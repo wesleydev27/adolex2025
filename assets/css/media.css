@@ -1,0 +1,55 @@
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  .clock-- {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  /*BORDAS DAS DIVS*/
+  .day,
+  .hour,
+  .minute,
+  .second {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /**DIVS SPAN***/
+  .day span,
+  .hour span,
+  .minute span,
+  .second span {
+    font-size: 1rem;
+    color: var(--branco);
+    font-family: "poppins regular";
+    font-weight: bold;
+  }
+
+  /*DIVS P*/
+  .day p,
+  .hour p,
+  .minute p,
+  .second p {
+    font-size: 0.5rem;
+    color: var(--branco);
+    font-family: "poppins regular";
+    font-weight: bold;
+  }
+
+  .title-- h1 {
+    font-size: 1.5rem;
+  }
+
+  .subtitle-- h2 {
+    font-size: 1.2rem;
+  }
+}

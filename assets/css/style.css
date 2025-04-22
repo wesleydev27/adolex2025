@@ -1,46 +1,167 @@
 /*** RESET ***/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    text-decoration: none;
-    list-style: none;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  border: none;
 }
 
 /***COLORS***/
-:root{
-    --roxo: #292d5d;
-    --branco: #fefefe;
-    --amarelo :#ffdb45;
-    --Preto :#333;
+:root {
+  --roxo: #292d5d;
+  --branco: #fefefe;
+  --amarelo: #ffdb45;
+  --amarelo-claro: #ffdf62;
+  --orange: #ff9003;
+  --Preto: #333;
 }
+
 /**Fonts***/
 @font-face {
-    font-family: 'akira';
-    src: url('../fonts/Akira\ Expanded\ Demo.otf') format('truetype');
+  font-family: "akira";
+  src: url("../fonts/Akira\ Expanded\ Demo.otf") format("truetype");
+}
+@font-face {
+  font-family: "poppins regular";
+  src: url("../fonts/Poppins-Regular.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: "Sora medium";
+  src: url("../fonts/Sora-Medium.ttf") format("truetype");
 }
 /*** BODY ***/
-body{
-    background-color: var(--roxo);
-    max-width: 1280px;
-    margin: 0 auto;
+body {
+  background-color: var(--roxo);
+  max-width: 1280px;
+  margin: 0 auto;
 }
 /*** HEADER ***/
-header{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100px;
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
 }
 
 /*** HEADER H1 ***/
 .title-- h1 {
-    font-size: 2rem;
-    background: linear-gradient(90deg, var(--amarelo), var(--branco));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-family: 'akira', sans-serif;
+  font-size: 2rem;
+  color: var(--amarelo);
+  text-align: center;
+  font-family: "akira", sans-serif;
+}
+
+/*** HEADER H2 ***/
+.subtitle-- h2 {
+  font-size: 1.5rem;
+  color: var(--branco);
+  font-family: "poppins regular";
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+/***Contagem Regressiva DIV***/
+.clock-- {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+/**DIV DAYS***/
+.day,
+.hour,
+.minute,
+.second {
+  width: 150px;
+  height: 150px;
+  border: 1px solid var(--branco);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/**DIV DAYS SPAN***/
+.day span,
+.hour span,
+.minute span,
+.second span {
+  font-size: 2rem;
+  color: var(--branco);
+  font-family: "poppins regular";
+  font-weight: bold;
+}
+
+/**DIV DAYS P***/
+.day p,
+.hour p,
+.minute p,
+.second p {
+  font-size: 1rem;
+  color: var(--branco);
+  font-family: "poppins regular";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/**DIV CLOCK HOVER **/
+.day:hover,
+.hour:hover,
+.minute:hover,
+.second:hover {
+  background-color: var(--amarelo);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+/*DIV CLOCK HOVER SPAN E P*/
+.day:hover span,
+.hour:hover span,
+.minute:hover span,
+.second:hover span,
+.day:hover p,
+.hour:hover p,
+.minute:hover p,
+.second:hover p {
+  color: var(--roxo);
+  transition: all 0.3s ease-in-out;
+}
+
+/**Button**/
+.button-- {
+  background-color: var(--amarelo);
+  color: var(--Preto);
+  width: 320px;
+  height: 50px;
+  border-bottom: 5px solid var(--orange);
+  border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+/**BUTTON A */
+.button-- a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-family: "sora medium", sans-serif;
+  color: var(--Preto);
+}
+
+/**BUTTON A HOVER**/
+.button--:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
