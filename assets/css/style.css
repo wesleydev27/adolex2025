@@ -1,0 +1,17 @@
+/*** RESET ***/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+/***COLORS***/
+:root{
+    --roxo: #292d5d;
+    --branco: #fefefe;
+    --amarelo :#ffdb45;
+    --Preto :#333;
+}
