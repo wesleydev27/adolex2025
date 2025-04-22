@@ -33,6 +33,7 @@
   font-family: "Sora medium";
   src: url("../fonts/Sora-Medium.ttf") format("truetype");
 }
+
 /*** BODY ***/
 body {
   background-color: var(--roxo);
@@ -144,7 +145,7 @@ header {
   background-color: var(--amarelo);
   color: var(--Preto);
   width: 320px;
-  height: 50px;
+  height: 70px;
   border-bottom: 5px solid var(--orange);
   border-radius: 5rem;
   transition: all 0.3s ease-in-out;
@@ -163,5 +164,6 @@ header {
 /**BUTTON A HOVER**/
 .button--:hover {
   transform: scale(1.1);
+  border-bottom: 0;
   cursor: pointer;
 }
