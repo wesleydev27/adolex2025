@@ -182,6 +182,14 @@ header {
   height: 100%;
 }
 
+.swiper h3 {
+  color: var(--amarelo);
+  font-family: "Sora medium";
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem;
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
