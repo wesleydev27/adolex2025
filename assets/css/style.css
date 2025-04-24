@@ -198,6 +198,20 @@ header {
   align-items: center;
 }
 
+/*NOME DAS ATRAÇOES*/
+#atracoes-- {
+  color: var(--amarelo);
+  font-family: "Sora medium";
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: var(--amarelo);
+  font-weight: bold;
+}
+
 .swiper-slide img {
   display: block;
   width: 100%;
@@ -207,8 +221,8 @@ header {
 
 .autoplay-progress {
   position: absolute;
-  right: 16px;
-  bottom: 16px;
+  right: 1px;
+  bottom: 2px;
   z-index: 10;
   width: 48px;
   height: 48px;
