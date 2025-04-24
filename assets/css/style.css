@@ -12,6 +12,7 @@
 /***COLORS***/
 :root {
   --roxo: #292d5d;
+  --roxo2: #1c2052;
   --branco: #fefefe;
   --amarelo: #e1ae43ff;
   --amarelo-claro: #ffdf62;
@@ -59,7 +60,7 @@ header {
 
 /*** HEADER H1 ***/
 .title-- h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--amarelo);
   text-align: center;
   font-family: "akira", sans-serif;
@@ -152,8 +153,8 @@ header {
 .button-- {
   background-color: var(--amarelo);
   color: var(--Preto);
-  width: 320px;
-  height: 70px;
+  width: 70%;
+  height: 4rem;
   border-bottom: 5px solid var(--orange);
   border-radius: 5rem;
   transition: all 0.3s ease-in-out;
@@ -176,13 +177,84 @@ header {
   cursor: pointer;
 }
 
-/*SWIPER*/
+/*ESTILIZA A ESTRUTURA DA SECAO LOCALIZACAO-*/
+.localizacao-- {
+  background-color: var(--roxo2);
+  border-radius: 1rem;
+  border-bottom: 5px solid var(--orange);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 2rem 0;
+}
+
+/*ESTILIZA H3 DENTRO DA CLASSE LOCALIZACAO--*/
+.localizacao-- h3 {
+  color: var(--amarelo);
+  font-family: "Sora medium";
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem;
+  text-transform: uppercase;
+}
+
+/*LINHA SUBLINHADA APOS O H3 DENTRO DA CLASSE LOCALIZACAO*/
+.localizacao-- h3::after {
+  content: " ";
+  display: block;
+  width: 3rem;
+  height: 0.3rem;
+  background-color: var(--amarelo);
+  margin: 0 auto;
+  margin-top: 0.3rem;
+}
+/* ESTILIZA UL DENTRO DA CLASSE LOCALIZACAO--*/
+.localizacao-- ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem;
+}
+/* ESTILIZA LI DENTRO DA CLASSE LOCALIZACAO--*/
+.localizacao-- li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--branco);
+  font-family: "sora medium", sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/*ESTILIZA CLASSE DE ICONES i DENTRO DA CLASSE LOCALIZACAO*/
+.localizacao-- li i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--amarelo);
+  font-size: 1rem;
+}
+
+/*ESTILIZA A DIV DO MAPA DENTRO DA CLASSE LOCALIZACAO*/
+.localizacao-- iframe {
+  width: 100%;
+  height: 400px;
+  border-radius: 1rem;
+}
+
+/*BIBLIOTECA SWIPER SLIDER*/
 .swiper {
   width: 100%;
   height: 100%;
+  margin-top: 2rem;
 }
 
-.swiper h3 {
+/*TITULO H4 DO SLIDER SWIPER*/
+.swiper h4 {
   color: var(--amarelo);
   font-family: "Sora medium";
   font-weight: bold;
@@ -190,12 +262,15 @@ header {
   text-align: center;
   margin: 2rem;
 }
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/*LINHA SUBLINHADA APOS O H3 DENTRO DO SLIDER*/
+.swiper h4::after {
+  content: " ";
+  display: block;
+  width: 3rem;
+  height: 0.3rem;
+  background-color: var(--amarelo);
+  margin: 0 auto;
+  margin-top: 0.3rem;
 }
 
 /*NOME DAS ATRAÇOES*/
@@ -206,23 +281,26 @@ header {
   font-size: 2rem;
 }
 
+/*ALTERA AS SETAS DO SLIDER*/
 .mySwiper .swiper-button-next,
 .mySwiper .swiper-button-prev {
   color: var(--amarelo);
   font-weight: bold;
 }
-
+/*ALTERA O TAMANHO DAS IMAGENS DENTRO DO SLIDER*/
 .swiper-slide img {
   display: block;
-  width: 100%;
+  width: 80%;
   height: 100%;
+  margin: 0 auto;
   object-fit: cover;
 }
 
+/*CONTROLA O POSICIONAMENTO DO CIRCULO DE PROGRESSO DENTRO DO SLIDER*/
 .autoplay-progress {
   position: absolute;
-  right: 1px;
-  bottom: 2px;
+  left: 1px;
+  bottom: 10px;
   z-index: 10;
   width: 48px;
   height: 48px;
@@ -231,6 +309,7 @@ header {
   justify-content: center;
   font-weight: bold;
   color: var(--amarelo);
+  font-family: "sora medium", sans-serif;
 }
 
 .autoplay-progress svg {
