@@ -197,7 +197,7 @@ header {
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
-  margin: 2rem;
+  margin: 1rem;
   text-transform: uppercase;
 }
 
@@ -355,6 +355,7 @@ header {
 .programacao-- p {
   color: var(--branco);
   font-family: "sora medium", sans-serif;
+  margin-bottom: 1.5rem;
   font-weight: 50;
   font-size: 1rem;
   line-height: 1.5;
@@ -427,4 +428,40 @@ header {
 #marcosvinicus ul i {
   color: var(--amarelo);
   font-size: 1.2rem;
+}
+
+/*ESTIILIZA O FOOTER*/
+.footer-- {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+/*ESTILIZA APOIO DENTRO DE FOOTER*/
+.footer-- .apoio--,
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  max-width: 300px;
+}
+
+/*ESTILIZA A DIV WESLEY DENTRO DE FOOTER*/
+.footer-- .wesley-- {
+  color: var(--branco);
+  font-family: "sora medium", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: 1rem;
+}
+/*ESTILIZA A TAG A WESLEY DENTRO DE FOOTER*/
+.footer-- .wesley-- a {
+  color: var(--amarelo);
+  font-family: "sora medium", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-decoration: none;
 }
