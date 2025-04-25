@@ -1,0 +1,2 @@
+/*INICIA A BIBLIOTECA AOS */
+AOS.init();

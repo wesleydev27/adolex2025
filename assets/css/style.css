@@ -19,6 +19,16 @@
   --orange: #ff9003;
   --Preto: #333;
 }
+/*** SCROLL E SCROLLBAR***/
+html {
+  scroll-behavior: smooth;
+  --webkit-scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--amarelo) var(--roxo2);
+  scrollbar-gutter: stable;
+  scrollbar-track-color: var(--roxo2);
+  scrollbar-thumb-color: var(--amarelo);
+}
 
 /**Fonts***/
 @font-face {
