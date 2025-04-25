@@ -273,20 +273,13 @@ header {
   margin-top: 0.3rem;
 }
 
-/*NOME DAS ATRAÇOES*/
-#atracoes-- {
-  color: var(--amarelo);
-  font-family: "Sora medium";
-  font-weight: bold;
-  font-size: 2rem;
-}
-
 /*ALTERA AS SETAS DO SLIDER*/
 .mySwiper .swiper-button-next,
 .mySwiper .swiper-button-prev {
   color: var(--amarelo);
   font-weight: bold;
 }
+
 /*ALTERA O TAMANHO DAS IMAGENS DENTRO DO SLIDER*/
 .swiper-slide img {
   display: block;
@@ -326,4 +319,112 @@ header {
   stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
+}
+
+/*ESTILIZA A SECTION DA CLASSE PROGRAMACAO--*/
+.programacao-- {
+  background-color: var(--roxo2);
+  border-radius: 1rem;
+  border-bottom: 5px solid var(--orange);
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+/*ESTILIZA O TITULO H5 DENTRO DA CLASSE PROGRAMACAO--*/
+.programacao-- h5 {
+  color: var(--amarelo);
+  font-family: "sora medium", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+/*LINHA SUBLINHADA APOS O H5 DENTRO DA CLASSE PROGRAMACAO*/
+.programacao-- h5::after {
+  content: " ";
+  display: block;
+  width: 3rem;
+  height: 0.3rem;
+  background-color: var(--amarelo);
+  margin: 0 auto;
+  margin-top: 0.3rem;
+}
+
+/*ESTILIZA O P DENTRO DA CLASSE PROGRAMACAO--*/
+.programacao-- p {
+  color: var(--branco);
+  font-family: "sora medium", sans-serif;
+  font-weight: 50;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/*ESTILIZA A SECAO PRELETORES*/
+.preletores-- {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/*ESTILIIZA O CARD O PREGRADOR MARCOS VINICIUS DENTRO DA DIV PROGRAMACAO--*/
+#marcosvinicus {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--branco);
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 800px;
+  padding: 1rem;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/*HOVER DO CARD O PREGRADOR MARCOS VINICIUS*/
+#marcosvinicus:hover {
+  transform: scale(1.05);
+  background-color: var(--roxo2);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px var(--amarelo);
+}
+
+/*ESTILIZA A IMAGEM DO CARD MARCOS VINICUS--*/
+#marcosvinicus img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+/*ESTILIZA O TITULO H6 DENTRO DO ID MARCOVINICUS E DA UL DENTRO DA CLASSE PRELETORES--*/
+#marcosvinicus h6 {
+  color: var(--amarelo);
+  font-family: "sora medium", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* ESTILIZA A UL DENTRO DO ID MARCOVINICUS*/
+#marcosvinicus ul {
+  color: var(--branco);
+  font-family: "sora medium", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0;
+}
+/** ESTILIZA A UL LI DENTRO DO ID MARCOVINICUS*/
+#marcosvinicus ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ESTILIZA A CLASSE I DENTRO DO ID MARCOVINICUS*/
+#marcosvinicus ul i {
+  color: var(--amarelo);
+  font-size: 1.2rem;
 }
