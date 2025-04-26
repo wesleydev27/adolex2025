@@ -55,24 +55,24 @@
   }
 
   .preletores-- {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     gap: 2rem;
   }
 
   #marcosvinicus {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     max-width: 800px;
   }
 
   #marcosvinicus img {
-    width: 40%;
+    width: 50%;
     margin: 0;
   }
 
   #marcosvinicus div {
-    text-align: left;
+    text-align: center;
     padding: 1rem;
   }
 }

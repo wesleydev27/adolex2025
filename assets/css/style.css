@@ -27,7 +27,6 @@ html {
   scrollbar-color: var(--amarelo) var(--roxo2);
   scrollbar-gutter: stable;
   scrollbar-track-color: var(--roxo2);
-  scrollbar-thumb-color: var(--amarelo);
 }
 
 /**Fonts***/
@@ -157,6 +156,18 @@ header {
 .second:hover p {
   color: var(--roxo);
   transition: all 0.3s ease-in-out;
+}
+
+/*ESTILIZA A CLASSE EVENT-STARTED DENTRO DO JAVASCRIPT*/
+.event-started {
+  font-size: 2rem;
+  font-family: "sora medium", sans-serif;
+  font-weight: bold;
+  color: var(--amarelo-claro);
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 /**Button**/

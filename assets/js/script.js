@@ -1,2 +1,103 @@
-/*INICIA A BIBLIOTECA AOS */
-AOS.init();
+/*CHAMA VARIAVEIS PELOS IDS */
+let DayEL = document.getElementById("days");
+let HourEL = document.getElementById("hours");
+let MinuteEL = document.getElementById("minutes");
+let SecondEL = document.getElementById("seconds");
+
+/*VARIAVEL QUE DEFINE A DATA DO EVENTO */
+const eventDate = "30 May 2025 19:00:00";
+
+/*FUNÇÃO QUE FAZ A CONTAGEM REGRESSIVA */
+function contdown() {
+    const eventDateTime = new Date(eventDate);
+    const currentDate = new Date();
+
+    const totalSeconds = (eventDateTime - currentDate) / 1000;
+    
+    // CALCULA O TEMPO RESTANTE EM DIAS, HORAS, MINUTOS E SEGUNDOS
+    const days = Math.floor(totalSeconds / 3600 / 24);
+    const hours = Math.floor(totalSeconds / 3600) % 24;
+    const minutes = Math.floor(totalSeconds / 60) % 60;
+    const seconds = Math.floor(totalSeconds) % 60;
+
+    if (totalSeconds <= 0) {
+        // QUANDO O EVENTO COMEÇAR O TEXTO MUDA PARA ESSA FRASE
+        document.querySelector(".clock--").innerHTML = "<p class='event-started'>Chegou o grande dia! Venha adorar a Deus conosco!</p>";
+        clearInterval(intervalId); 
+    } else {
+        // ATUALIZA O HTML COM A CONTAGEM REGRESSIVA
+        DayEL.innerHTML = formatTime(days);
+        HourEL.innerHTML = formatTime(hours);
+        MinuteEL.innerHTML = formatTime(minutes);
+        SecondEL.innerHTML = formatTime(seconds);
+    }
+}
+
+// FUNÇÃO QUE FORMATA O TEMPO PARA FICAR COM 2 DIGITOS
+function formatTime(time) {
+    return time < 10 ? `0${time}` : time;
+}
+// CHAMA A FUNÇÃO CONTAGEM REGRESSIVA A CADA 1 SEGUNDO
+const intervalId = setInterval(contdown, 1000);
+contdown();
+
+// FUNÇÃO QUE DEIXA A PRIMEIRA LETRA DO NOME DO MÊS MAIÚSCULA E O RESTANTE MINÚSCULO
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+}
+
+//SCRIPT VERIFICA SE A DATA DO EVENTO DE CADA DIA JÁ PASSOU
+document.addEventListener("DOMContentLoaded", () => {
+    const preletores = document.querySelectorAll(".preletores-- > div");
+
+    preletores.forEach(preletor => {
+        const dateElement = preletor.querySelector("li:nth-child(2)");
+        const dateText = dateElement.textContent.trim();
+        const timeElement = preletor.querySelector("li:nth-child(3)");
+        const timeText = timeElement.textContent.trim();
+
+        // EXTRAINDO A DATA E HORA DO TEXTO
+        const dateMatch = dateText.match(/\d{2} de \w+ de \d{4}/);
+        const timeMatch = timeText.match(/\d{2}:\d{2}/);
+
+        if (dateMatch && timeMatch) {
+            const dateString = dateMatch[0];
+            const timeString = timeMatch[0];
+
+            // CONVERTE A DATA E HORA PARA UM OBJETO DATE
+            const [day, monthName, year] = dateString.split(" de ");
+            const monthMap = {
+                "Janeiro": 0, "Fevereiro": 1, "Março": 2, "Abril": 3, "Maio": 4, "Junho": 5,
+                "Julho": 6, "Agosto": 7, "Setembro": 8, "Outubro": 9, "Novembro": 10, "Dezembro": 11
+            };
+
+            // PADRONIZA O NOME DO MES PARA TER A LETRA MAIÚSCULA
+            const normalizedMonthName = capitalizeFirstLetter(monthName);
+            const month = monthMap[normalizedMonthName];
+
+            const [hours, minutes] = timeString.split(":").map(Number);
+
+            const eventDate = new Date(year, month, day, hours, minutes);
+            const now = new Date();
+
+            // VERIFICA SE A DATA DO EVENTO JÁ PASSOU
+            if (eventDate > now) {
+                const statusElement = document.createElement("span");
+                statusElement.textContent = "Aguardando o inicio do culto";
+                statusElement.style.color = "green";
+                statusElement.style.display = "block"; 
+                statusElement.style.textAlign = "center"; 
+                statusElement.style.marginTop = "10px"; 
+                dateElement.parentElement.appendChild(statusElement); 
+            } else if (eventDate < now) {
+                const statusElement = document.createElement("span");
+                statusElement.textContent = "Culto encerrado";
+                statusElement.style.color = "red";
+                statusElement.style.display = "block"; 
+                statusElement.style.textAlign = "center";
+                statusElement.style.marginTop = "10px"; 
+                dateElement.parentElement.appendChild(statusElement);
+            }
+        }
+    });
+});
