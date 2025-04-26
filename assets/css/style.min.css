@@ -52,6 +52,14 @@ body {
   margin: 0 auto;
 }
 
+/**ESTILIZA A TAG AUDIO*/
+audio {
+  margin: 0.5rem auto;
+  display: none;
+  width: 100%;
+  max-width: 500px;
+}
+
 /*** HEADER ***/
 header {
   display: flex;
