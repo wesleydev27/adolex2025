@@ -160,17 +160,41 @@ header {
 
 /*ESTILIZA A CLASSE EVENT-STARTED DENTRO DO JAVASCRIPT*/
 .event-started {
-  font-size: 2rem;
-  font-family: "sora medium", sans-serif;
-  font-weight: bold;
-  color: var(--amarelo-claro);
+  font-size: 3rem;
+  font-family: "akira", sans-serif;
+  color: var(--amarelo);
   text-align: center;
-  padding: 20px;
   margin: 0 auto;
-  max-width: 800px;
+}
+/*ESTILIZA A CLASSE EVENT-LIVE PARA O LINK DO YOUTUBE*/
+.event-live {
+  font-size: 1.5rem;
+  font-family: "poppins regular";
+  color: var(--branco);
+  text-align: center;
+  margin: 0 auto;
+}
+/*ESTILIZA O LINK DO YOUTUBE*/
+.event-live a {
+  color: var(--amarelo);
+  font-family: "poppins regular";
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
 }
 
-/**Button**/
+/*ESTILIZA O LINK DO IFRAME DO YOUTUBE*/
+.responsive-iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  border-radius: 1rem;
+}
+
+/**BUTTON**/
 .button-- {
   background-color: var(--amarelo);
   color: var(--Preto);

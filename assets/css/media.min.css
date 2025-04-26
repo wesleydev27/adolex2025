@@ -44,16 +44,18 @@
     font-family: "poppins regular";
     font-weight: bold;
   }
-
-  .title-- h1 {
+  /*TAMANHO DAS LETRAS NO MOBILE*/
+  .title-- h1,
+  .event-started {
     font-size: 1.7rem;
     text-align: center;
+    padding: 0 0.2rem;
   }
 
   .subtitle-- h2 {
     font-size: 1.2rem;
   }
-
+  /* ESTILIZA A SECAO PRELETORES*/
   .preletores-- {
     flex-direction: column;
     justify-content: center;
