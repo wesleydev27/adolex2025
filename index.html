@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
     <!--Media Query-->
-    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/media.min.css">
     <!-- Swiper CDN-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!--Font awesome CDN-->
@@ -31,15 +31,15 @@
         </div>
         <!--Título e Subtítulo -->
         <div class="title--">
-            <h1>Congresso dos Adolescentes 2025</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1500">Congresso dos Adolescentes 2025</h1>
         </div>
 
         <div class="subtitle--">
-            <h2>setor 4</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">setor 4</h2>
         </div>
 
         <!--Contagem regressiva-->
-        <div class="clock--">
+        <div class="clock--" data-aos="zoom-in" data-aos-duration="1000">
             <!--Dias-->
             <div class="day">
                 <span id="days">21</span>
@@ -87,11 +87,15 @@
     <div class="swiper mySwiper">
         <h4>Preletores (a) e cantores (a)</h4>
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="/assets//img/sliders/Marcos vinicius.png" alt="Marcos Vinicius"></div>
-            <div class="swiper-slide"><img src="/assets/img/sliders/Jailson marinho.png" alt=" Jailson Marinho"></div>
-            <div class="swiper-slide"><img src="/assets/img/sliders/Cantor samer.png" alt="Cantor Samer"></div>
-            <div class="swiper-slide"><img src="/assets/img/sliders/Gisele.png" alt="Gisele Ramos"></div>
-            <div class="swiper-slide"><img src="/assets/img/sliders/Cantora Bruna.png" alt="Cantora Bruna"></div>
+            <div class="swiper-slide"><img src="/assets//img/sliders/Marcos vinicius.png" alt="Marcos Vinicius"
+                    loading="lazy"></div>
+            <div class="swiper-slide"><img src="/assets/img/sliders/Jailson marinho.png" alt=" Jailson Marinho"
+                    loading="lazy"></div>
+            <div class="swiper-slide"><img src="/assets/img/sliders/Cantor samer.png" alt="Cantor Samer" loading="lazy">
+            </div>
+            <div class="swiper-slide"><img src="/assets/img/sliders/Gisele.png" alt="Gisele Ramos" loading="lazy"></div>
+            <div class="swiper-slide"><img src="/assets/img/sliders/Cantora Bruna.png" alt="Cantora Bruna"
+                    loading="lazy"></div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
@@ -105,26 +109,26 @@
     </div>
 
     <!--Programação-->
-    <div class="programacao--">
-        <h5>Programação</h5>
-        <p>Fique por dentro para não perder a sua benção!</p>
+    <div class="programacao--" data-aos="fade-up" data-aos-duration="1500">
+        <h5 data-aos="fade-zoom-in" data-aos-duration="1000">Programação</h5>
+        <p data-aos="fade-down" data-aos-duration="1000">Fique por dentro para não perder a sua benção!</p>
 
         <div class="preletores--">
             <!--MARCOS VINICIUS-->
-            <div id="marcosvinicus">
+            <div id="marcosvinicus" data-aos="zoom-in" data-aos-duration="1000">
                 <img src="assets/img/sliders/Marcos vinicius(solo).png" alt="Marcos Vinicius">
                 <ul>
-                    <h6>1 Dia</h6>
+                    <h6 data-aos="fade-up" data-aos-duration="1000">1 Dia</h6>
                     <li><i class="fa-solid fa-calendar-days"></i> 30 de Maio de 2025</li>
                     <li><i class="fa-solid fa-clock"></i> 19:00</li>
                     <li><i class="fa-solid fa-user"></i>Preletor: Marcos Vinicius</li>
                 </ul>
             </div>
             <!--JAILSON MARIINHO-->
-            <div id="marcosvinicus">
+            <div id="marcosvinicus" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                 <img src="assets/img/sliders/Jailson marinho(solo).png" alt="Jailson Marinho">
                 <ul>
-                    <h6>2 Dia</h6>
+                    <h6 data-aos="fade-up" data-aos-duration="1000">2 Dia</h6>
                     <li><i class="fa-solid fa-calendar-days"></i> 31 de Maio de 2025</li>
                     <li><i class="fa-solid fa-clock"></i> 18:00</li>
                     <li><i class="fa-solid fa-user"></i>Preletor: Jailson Marinho</li>
@@ -133,10 +137,10 @@
             </div>
 
             <!--CANTOR SAMER-->
-            <div id="marcosvinicus">
+            <div id="marcosvinicus" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                 <img src="assets/img/sliders/Samer(solo).png" alt="Samer">
                 <ul>
-                    <h6>2 Dia</h6>
+                    <h6 data-aos="fade-up" data-aos-duration="1000">2 Dia</h6>
                     <li><i class="fa-solid fa-calendar-days"></i> 31 de Maio de 2025</li>
                     <li><i class="fa-solid fa-clock"></i> 18:00</li>
                     <li><i class="fa-solid fa-user"></i>Cantor: Samer</li>
@@ -145,21 +149,20 @@
             </div>
 
             <!--PRELETORA GISELE-->
-            <div id="marcosvinicus">
+            <div id="marcosvinicus" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
                 <img src="assets/img/sliders//Gisele ramos (solo).png" alt="Gisele Ramos">
                 <ul>
-                    <h6>3 Dia</h6>
+                    <h6 data-aos="fade-up" data-aos-duration="1000">3 Dia</h6>
                     <li><i class="fa-solid fa-calendar-days"></i> 01 de Junho de 2025</li>
                     <li><i class="fa-solid fa-clock"></i> 09:00</li>
                     <li><i class="fa-solid fa-user"></i>Preletora: Gisele Ramos</li>
-
                 </ul>
             </div>
             <!--CANTORA BRUNA-->
-            <div id="marcosvinicus">
+            <div id="marcosvinicus" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">
                 <img src="assets/img/sliders/Bruna (solo).png" alt="Bruna">
                 <ul>
-                    <h6>3 Dia</h6>
+                    <h6 data-aos="fade-up" data-aos-duration="1000">3 Dia</h6>
                     <li><i class="fa-solid fa-calendar-days"></i> 01 de Junho de 2025</li>
                     <li><i class="fa-solid fa-clock"></i> 09:00</li>
                     <li><i class="fa-solid fa-user"></i>Cantora: Bruna</li>
@@ -184,7 +187,7 @@
     </footer>
 
     <!--Script JS-->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.min.js"></script>
 
     <!--Swiper JS CDN-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -192,6 +195,9 @@
 
     <!--Animation AOS CDN-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
