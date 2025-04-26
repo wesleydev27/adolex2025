@@ -473,11 +473,16 @@ img {
 
 /*ESTILIZA A DIV WESLEY DENTRO DE FOOTER*/
 .footer-- .wesley-- {
+  background-color: var(--roxo2);
+  width: 100%;
+  margin: 0 auto;
   color: var(--branco);
   font-family: "sora medium", sans-serif;
+  text-align: center;
   font-size: 0.9rem;
   line-height: 1.5;
   padding: 1rem;
+  margin: 0.2rem;
 }
 /*ESTILIZA A TAG A WESLEY DENTRO DE FOOTER*/
 .footer-- .wesley-- a {
