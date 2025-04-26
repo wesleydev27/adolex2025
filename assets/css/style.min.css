@@ -55,7 +55,7 @@ body {
 /**ESTILIZA A TAG AUDIO*/
 audio {
   margin: 0.5rem auto;
-  display: none;
+  display: block;
   width: 100%;
   max-width: 500px;
 }
