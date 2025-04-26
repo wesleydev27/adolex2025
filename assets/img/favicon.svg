@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      inkscape:zoom="2.8756734"
      inkscape:cx="45.72842"
-     inkscape:cy="72.852501"
+     inkscape:cy="72.504757"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -40,7 +40,7 @@
      id="layer1"
      transform="matrix(2.7637795,0,0,2.7637795,-3.1485382,-3.6571143)">
     <circle
-       style="fill:#292d5d;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;paint-order:stroke markers fill"
+       style="display:inline;fill:#292d5d;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;paint-order:stroke markers fill"
        id="path1"
        cx="7.3145909"
        cy="7.4986057"
@@ -49,7 +49,7 @@
        id="g11"
        style="display:inline"
        inkscape:label="COROA"
-       transform="matrix(0.01019817,0,0,0.01019817,3.7133324,-1.190694)">
+       transform="matrix(0.02605456,0,0,0.02605456,-6.4517371,-15.782797)">
       <path
          style="display:inline;fill:#e1ae43;fill-opacity:1;stroke:none;stroke-width:43.4557"
          d="m 429.7249,855.10618 24.35599,-20.00645 c 11.68395,7.15592 18.47016,28.18877 37.22953,15.29765 l 0.0872,12.93793 3.21184,-1.93198 2.5655,-9.26927 21.38824,-21.18749 0.34497,-3.82069 -1.03492,-5.21005 -1.37988,-3.82068 -0.68993,-3.8207 -1.22628,-10.59324 0.70882,-9.63906 1.32447,-5.31951 3.67762,-7.09775 7.2444,-10.07276 6.20949,-6.25204 3.5343,-2.60786 4.9175,-2.86267 -0.70799,28.90758 c 51.74674,-5.47662 41.72855,16.71317 42.47467,44.73178 0.23541,8.8401 -17.82826,23.33281 -22.66785,27.1746 -27.00561,21.43776 -22.17845,55.86065 69.73135,54.35834 35.76836,14.17628 49.78592,2.92715 47.79955,18.06292 -33.89248,41.02816 -45.39469,54.60151 -84.60233,100.98092 l -4.43497,5.892 c -14.24263,-13.9665 -25.14577,-25.6032 -35.0903,-33.5787 -15.57052,-12.48746 -27.77349,-18.03446 -38.96453,-25.09725 -108.87364,-35.56652 -135.0945,-52.25711 -132.57343,-180.45664 -0.0551,-1.58018 0.98449,-2.87083 1.25504,-3.63684 1.74986,-1.77098 2.05716,-2.07363 3.98278,-2.23492 1.69406,-0.14229 3.47281,-0.38972 5.45452,1.62316 0,0 24.8284,42.66184 35.69941,58.90016 z"
@@ -65,12 +65,12 @@
     </g>
     <path
        id="rect23"
-       style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.479394"
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:0.479394"
        d="m 4.2821634,3.6232086 v 0.9231327 h 4.4468791 v 2.274e-4 l 2.736e-4,-2.274e-4 h 0.00112 V 4.545454 l 1.1334525,-0.9147889 -1.13345,-0.00609 v -0.00137 z"
        inkscape:label="sub top" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.675731px;line-height:0;font-family:'Tempus Sans ITC';-inkscape-font-specification:'Tempus Sans ITC';text-align:center;letter-spacing:0px;word-spacing:-0.109898px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#2a2d60;fill-opacity:1;stroke-width:0.154858"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.675731px;line-height:0;font-family:'Tempus Sans ITC';-inkscape-font-specification:'Tempus Sans ITC';text-align:center;letter-spacing:0px;word-spacing:-0.109898px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#2a2d60;fill-opacity:1;stroke-width:0.154858"
        x="6.3492532"
        y="4.3195548"
        id="text1"
@@ -78,17 +78,17 @@
        inkscape:label="texto subtopo"><tspan
          sodipodi:role="line"
          id="tspan1"
-         x="6.3492532"
-         y="4.3195548"
+         x="0"
+         y="0"
          style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'TT Autonomous Trl';-inkscape-font-specification:'TT Autonomous Trl Ultra-Bold';letter-spacing:0px;word-spacing:-0.109898px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#2a2d60;fill-opacity:1;stroke-width:0.154858">ORFÃOS</tspan></text>
     <path
        id="rect22"
-       style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.921798"
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:0.921798"
        d="M 4.272836,2.7323487 V 3.4614871 H 10.54457 V 2.7323487 Z"
        inkscape:label="topo" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.45705px;line-height:0;font-family:'Tempus Sans ITC';-inkscape-font-specification:'Tempus Sans ITC';text-align:center;letter-spacing:0px;word-spacing:-0.0743326px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#2a2d60;fill-opacity:1;stroke-width:0.104742"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.45705px;line-height:0;font-family:'Tempus Sans ITC';-inkscape-font-specification:'Tempus Sans ITC';text-align:center;letter-spacing:0px;word-spacing:-0.0743326px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#2a2d60;fill-opacity:1;stroke-width:0.104742"
        x="7.4946632"
        y="3.2259657"
        id="text23"
@@ -96,14 +96,14 @@
        inkscape:label="texto topo"><tspan
          sodipodi:role="line"
          id="tspan23"
-         x="7.4946632"
-         y="3.2259657"
+         x="0"
+         y="0"
          style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'TT Autonomous Trl';-inkscape-font-specification:'TT Autonomous Trl Ultra-Bold';letter-spacing:0px;word-spacing:-0.0743326px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#2a2d60;fill-opacity:1;stroke-width:0.104742"
          dx="0.025994077"
          dy="0">NÃO VOS DEIXAREI</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.675731px;line-height:0;font-family:'Tempus Sans ITC';-inkscape-font-specification:'Tempus Sans ITC';text-align:center;letter-spacing:0px;word-spacing:-0.109898px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#f4f4f5;fill-opacity:1;stroke-width:0.154858"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.675731px;line-height:0;font-family:'Tempus Sans ITC';-inkscape-font-specification:'Tempus Sans ITC';text-align:center;letter-spacing:0px;word-spacing:-0.109898px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#f4f4f5;fill-opacity:1;stroke-width:0.154858"
        x="6.5534682"
        y="11.899316"
        id="text2"
@@ -116,7 +116,7 @@
          style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'TT Autonomous Trl';-inkscape-font-specification:'TT Autonomous Trl Ultra-Bold';letter-spacing:0px;word-spacing:-0.109898px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#f4f4f5;fill-opacity:1;stroke-width:0.154858">PARA VÓS</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:800;font-size:0.46825px;line-height:0;font-family:'TT Autonomous Trl';-inkscape-font-specification:'TT Autonomous Trl Ultra-Bold';text-align:center;letter-spacing:0px;word-spacing:-0.0243393px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#f4f4f5;stroke-width:0.107306"
+       style="font-weight:800;font-size:0.46825px;line-height:0;font-family:'TT Autonomous Trl';-inkscape-font-specification:'TT Autonomous Trl Ultra-Bold';text-align:center;letter-spacing:0px;word-spacing:-0.0243393px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#f4f4f5;stroke-width:0.107306"
        x="10.11904"
        y="11.776222"
        id="text3"
@@ -129,7 +129,7 @@
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Nevada-Serial-Light;-inkscape-font-specification:'Nevada-Serial-Light Light';stroke-width:0.107306">João 14:18</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:3.30624px;line-height:0;font-family:Nevada-Serial-Light;-inkscape-font-specification:'Nevada-Serial-Light Light';text-align:center;letter-spacing:0px;word-spacing:-0.171855px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#e1ae43;fill-opacity:1;stroke:#000000;stroke-width:0.0272248;stroke-opacity:0"
+       style="font-weight:300;font-size:3.30624px;line-height:0;font-family:Nevada-Serial-Light;-inkscape-font-specification:'Nevada-Serial-Light Light';text-align:center;letter-spacing:0px;word-spacing:-0.171855px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#e1ae43;fill-opacity:1;stroke:#000000;stroke-width:0.0272248;stroke-opacity:0"
        x="6.2867103"
        y="11.344031"
        id="text5"
@@ -137,12 +137,12 @@
        transform="scale(1.0150058,0.98521605)"><tspan
          sodipodi:role="line"
          id="tspan5"
-         x="6.2867103"
-         y="11.344031"
+         x="0"
+         y="0"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Outlast;-inkscape-font-specification:Outlast;fill:#e1ae43;fill-opacity:1;stroke-width:0.0272248">rei</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.73747px;line-height:0;font-family:Nevada-Serial-Light;-inkscape-font-specification:'Nevada-Serial-Light Light';text-align:center;letter-spacing:0px;word-spacing:-0.142292px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#e1ae43;fill-opacity:1;stroke:#000000;stroke-width:0.0225414;stroke-opacity:0"
+       style="font-weight:300;font-size:2.73747px;line-height:0;font-family:Nevada-Serial-Light;-inkscape-font-specification:'Nevada-Serial-Light Light';text-align:center;letter-spacing:0px;word-spacing:-0.142292px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#e1ae43;fill-opacity:1;stroke:#000000;stroke-width:0.0225414;stroke-opacity:0"
        x="5.6705971"
        y="8.7512074"
        id="text6"
@@ -150,12 +150,12 @@
        transform="scale(0.99790589,1.0020985)"><tspan
          sodipodi:role="line"
          id="tspan6"
-         x="5.6705971"
-         y="8.7512074"
+         x="0"
+         y="0"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Outlast;-inkscape-font-specification:Outlast;fill:#e1ae43;fill-opacity:1;stroke-width:0.0225414">ta</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.73747px;line-height:0;font-family:Nevada-Serial-Light;-inkscape-font-specification:'Nevada-Serial-Light Light';text-align:center;letter-spacing:0px;word-spacing:-0.142292px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#e1ae43;fill-opacity:1;stroke:#000000;stroke-width:0.0225414;stroke-opacity:0"
+       style="font-weight:300;font-size:2.73747px;line-height:0;font-family:Nevada-Serial-Light;-inkscape-font-specification:'Nevada-Serial-Light Light';text-align:center;letter-spacing:0px;word-spacing:-0.142292px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#e1ae43;fill-opacity:1;stroke:#000000;stroke-width:0.0225414;stroke-opacity:0"
        x="6.4963446"
        y="6.6818328"
        id="text4"
