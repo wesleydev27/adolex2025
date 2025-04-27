@@ -46,18 +46,10 @@ html {
 
 /*** BODY ***/
 body {
-  background-color: var(--roxo);
+  background: linear-gradient(to bottom, var(--roxo) 0%, var(--roxo2) 100%);
   z-index: -1;
   max-width: 1280px;
   margin: 0 auto;
-}
-
-/**ESTILIZA A TAG AUDIO*/
-audio {
-  margin: 0.5rem auto;
-  display: block;
-  width: 100%;
-  max-width: 500px;
 }
 
 /*** HEADER ***/
