@@ -52,8 +52,8 @@ body {
   margin: 0 auto;
 }
 
-/*** HEADER ***/
-header {
+/*** NAV ***/
+nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -67,7 +67,7 @@ header {
   width: 200px;
 }
 
-/*** HEADER H1 ***/
+/*** NAV H1 ***/
 .title-- h1 {
   font-size: 3rem;
   color: var(--amarelo);
@@ -75,7 +75,7 @@ header {
   font-family: "akira", sans-serif;
 }
 
-/*** HEADER H2 ***/
+/*** NAV H2 ***/
 .subtitle-- h2 {
   font-size: 1.5rem;
   color: var(--branco);
